@@ -291,7 +291,8 @@ class HTMLFormatter(Formatter):
                 self.scenario_name.set('class', 'failed')
                 self.header.set('class', 'failed')
                 if self.last_scenario.error_message:
-                    self.embedding("text/plain", self.last_scenario.error_message, "Error Message")
+                    self.embedding("text/plain", self.last_scenario.error_message,
+                                   "Scenario Error Message")
 
             if self.last_scenario.status == 'undefined':
                 self.scenario_name.set('class', 'undefined')
