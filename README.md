@@ -1,4 +1,6 @@
-# Html formatter for Behave
+# Development of this project has been moved to [behave-contrib/behave-html-formatter](https://github.com/behave-contrib/behave-html-formatter)
+
+## Html formatter for Behave
 
 To use it with behave create behave.ini file in project folder (or in home) with
 following content:
